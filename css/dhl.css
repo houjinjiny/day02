@@ -1,0 +1,121 @@
+/*通用样式*/
+div{
+
+}
+body{
+    background-color: #F6F6F6;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+#con-f,#con-s,#con-t{
+    float: left;
+}
+#con-fo{
+    float: right;
+}
+#wk{
+    background-color: white;
+    height: 51px;
+}
+/*定义样式*/
+/*第一部分*/
+#con-f{
+    margin-left: 200px;
+
+}
+/*第二部分*/
+#con-f{
+    margin-left: 30px;
+}
+#home{
+    color: black;
+    border-bottom: 3px solid #0074E1;
+    width: 35px;
+    height: 51px;
+}
+.cons-a{
+    color: #A7AFC1;
+    width: 70px;
+    height: 51px;
+    float: left;
+    margin-right: 10px;
+}
+#con-s a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*第三部分*/
+#con-t{
+    margin-left: 20px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#con-t input{
+    height: 35px;
+    width: 290px;
+    border: 1px #EBEBEB solid;
+    border-radius: 5px;
+    float: left;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+#con-t a{
+    height: 35px;
+    width: 55px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0084FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+/*第四部分*/
+#con-fo{
+    margin-right: 200px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+#con-fo div{
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-right: 30px;
+}
+#con-fo img{
+    width: 100%;
+    height: 100%;
+}
+#con-fo-d{
+    position: relative;
+}
+#con-fo-by{
+    width: 16px!important;
+    height: 16px!important;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -2px;
+    left: 10px;
+}
+#con-fo-y{
+    width: 14px!important;
+    height: 14px!important;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -2px;
+    left: 10px;
+}
